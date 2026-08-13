@@ -8,7 +8,7 @@ SpotifyBridge is free to download:
 
 [**Download SpotifyBridge v2.5.0 (.tox)**](https://raw.githubusercontent.com/merterbil/SpotifyBridge/main/releases/SpotifyBridgeV2.5.0.tox)
 
-Versioned builds are stored in the repository's [`releases` folder](https://github.com/merterbil/SpotifyBridge/tree/main/releases). No Patreon membership or payment is required.
+Versioned builds are stored in the repository's [`releases` folder](https://github.com/merterbil/SpotifyBridge/tree/main/releases).
 
 ## How to Use
 
