@@ -4,9 +4,11 @@ SpotifyBridge brings live Spotify playback data and lyrics into TouchDesigner.
 
 ## Download
 
-SpotifyBridge is free to download. Official `.tox` builds are published as versioned assets on the [GitHub Releases page](https://github.com/merterbil/SpotifyBridge/releases).
+SpotifyBridge is free to download:
 
-No Patreon membership or payment is required to download the `.tox` file.
+[**Download SpotifyBridge v2.4.7 (.tox)**](https://raw.githubusercontent.com/merterbil/SpotifyBridge/main/releases/SpotifyBridgeV2.4.7.tox)
+
+Versioned builds are stored in the repository's [`releases` folder](https://github.com/merterbil/SpotifyBridge/tree/main/releases). No Patreon membership or payment is required.
 
 ## Updates
 
