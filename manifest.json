@@ -1,0 +1,15 @@
+{
+    "schemaVersion": 1,
+    "toolId": "spotify-bridge",
+    "name": "SpotifyBridge",
+    "publisher": "merterbil",
+    "status": "preparing",
+    "latestVersion": null,
+    "access": "patreon",
+    "downloadPage": "https://www.patreon.com/cw/merderbil",
+    "releasePage": "https://github.com/merterbil/SpotifyBridge/releases",
+    "compatibility": {
+          "touchDesigner": "2023+",
+          "platforms": ["windows", "macos"]
+    }
+}
