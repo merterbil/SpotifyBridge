@@ -10,11 +10,26 @@ SpotifyBridge is free to download:
 
 Versioned builds are stored in the repository's [`releases` folder](https://github.com/merterbil/SpotifyBridge/tree/main/releases). No Patreon membership or payment is required.
 
+## How to Use
+
+1. Download `SpotifyBridgeV2.4.7.tox`.
+2. Open a fresh TouchDesigner project and drag the `.tox` into the network.
+3. Open the component's **Spotify Setup** parameter page.
+4. Enter your own Spotify **Client ID** and **Client Secret**.
+5. Press **Authenticate with Spotify** and complete authorization in your browser.
+6. Start Spotify playback. SpotifyBridge will expose the current playback data, lyrics, and prepared public output operators inside the component.
+
+## Authentication Cache
+
+After successful authorization, SpotifyBridge stores its Spotify authentication cache in the TouchDesigner project's VFS so the session can refresh without requiring a new login each time.
+
+Press **Disconnect / Clear Cache** on the **Spotify Setup** page whenever you want to disconnect and delete that stored VFS cache. Use this before sharing or exporting a project that has been authenticated.
+
 ## Updates
 
 SpotifyBridge checks its official GitHub manifest once when the component is loaded. You can disable **Auto Check on Load** or run **Check for Updates** manually from the **Updates** parameter page.
 
-The update checker only reports availability and opens the official download page. It does not silently replace components or modify user projects.
+When an update is available, press **Download Update** to download the current release. The updater does not silently replace components or modify user projects.
 
 ## Compatibility
 
