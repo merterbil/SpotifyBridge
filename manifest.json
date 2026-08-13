@@ -4,13 +4,15 @@
   "name": "SpotifyBridge",
   "publisher": "merterbil",
   "status": "published",
-  "latestVersion": "2.4.7",
+  "latestVersion": "2.5.0",
   "access": "public",
-  "downloadUrl": "https://raw.githubusercontent.com/merterbil/SpotifyBridge/main/releases/SpotifyBridgeV2.4.7.tox",
+  "downloadUrl": "https://raw.githubusercontent.com/merterbil/SpotifyBridge/main/releases/SpotifyBridgeV2.5.0.tox",
   "releasePage": "https://github.com/merterbil/SpotifyBridge/tree/main/releases",
   "patreon": "https://www.patreon.com/merderbil",
   "compatibility": {
     "touchDesigner": "2025.33070",
-    "platformsTested": ["macos"]
+    "platformsTested": [
+      "macos"
+    ]
   }
 }
