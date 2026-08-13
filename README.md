@@ -2,13 +2,13 @@ SpotifyBridge
 
 SpotifyBridge brings live Spotify playback data and lyrics into TouchDesigner.
 
-DISTRIBUTION
+DOWNLOAD
 
-SpotifyBridge is a paid merterbil tool. This public repository contains documentation, issue tracking, release notes, and update metadata. The downloadable .tox remains available through the official Patreon page:
+SpotifyBridge is free to download. Official .tox builds will be published as versioned assets on the GitHub Releases page:
 
-https://www.patreon.com/cw/merderbil
+https://github.com/merterbil/SpotifyBridge/releases
 
-Paid .tox files are not published in this repository.
+No Patreon membership or payment is required to download the .tox file.
 
 COMPATIBILITY
 
@@ -16,11 +16,11 @@ TouchDesigner 2023 and newer on Windows and macOS are the compatibility targets.
 
 SECURITY
 
-Release builds must never contain Spotify access tokens, refresh tokens, client secrets, populated cache files, or customer information. Users enter their own Spotify credentials locally.
+Release builds must never contain Spotify access tokens, refresh tokens, client secrets, populated cache files, or user information. Users enter their own Spotify credentials locally.
 
 VERSIONING
 
-SpotifyBridge uses semantic versioning: MAJOR.MINOR.PATCH. Each public release record will list its version, minimum TouchDesigner build, tested systems, release notes, and official Patreon download page.
+SpotifyBridge uses semantic versioning: MAJOR.MINOR.PATCH. Each public release will list its version, minimum TouchDesigner build, tested systems, release notes, and downloadable .tox asset.
 
 UPDATES
 
@@ -28,7 +28,7 @@ A separate Merterbil Manager component is planned to read official version metad
 
 SUPPORT
 
-Use GitHub Issues for reproducible bugs and documentation problems. Do not post Spotify credentials, tokens, cache files, or paid .tox files.
+Use GitHub Issues for reproducible bugs and documentation problems. Do not post Spotify credentials, tokens, or cache files.
 
-Copyright (c) merterbil. All rights reserved. No license is granted for the paid .tox file or its internal code unless explicitly stated.
+The downloadable .tox is free to download and use. No open-source license has been declared for its internal code unless explicitly stated.
 
