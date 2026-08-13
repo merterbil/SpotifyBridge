@@ -4,7 +4,7 @@
   "name": "SpotifyBridge",
   "publisher": "merterbil",
   "status": "published",
-  "latestVersion": "2.4.7",
+  "latestVersion": "2.4.8",
   "access": "public",
   "downloadUrl": "https://raw.githubusercontent.com/merterbil/SpotifyBridge/main/releases/SpotifyBridgeV2.4.7.tox",
   "releasePage": "https://github.com/merterbil/SpotifyBridge/tree/main/releases",
