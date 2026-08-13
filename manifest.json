@@ -3,14 +3,14 @@
   "toolId": "spotify-bridge",
   "name": "SpotifyBridge",
   "publisher": "merterbil",
-  "status": "preparing",
-  "latestVersion": null,
+  "status": "published",
+  "latestVersion": "2.4.7",
   "access": "public",
-  "downloadUrl": null,
-  "releasePage": "https://github.com/merterbil/SpotifyBridge/releases",
+  "downloadUrl": "https://raw.githubusercontent.com/merterbil/SpotifyBridge/main/releases/SpotifyBridgeV2.4.7.tox",
+  "releasePage": "https://github.com/merterbil/SpotifyBridge/tree/main/releases",
+  "patreon": "https://www.patreon.com/merderbil",
   "compatibility": {
-    "touchDesigner": "2023+",
-    "platforms": ["windows", "macos"]
+    "touchDesigner": "2025.33070",
+    "platformsTested": ["macos"]
   }
 }
-
