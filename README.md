@@ -1,4 +1,4 @@
-# SpotifyBridge
+ # SpotifyBridge
 
 SpotifyBridge brings live Spotify playback data and lyrics into TouchDesigner.
 
@@ -24,10 +24,6 @@ Versioned builds are stored in the repository's [releases folder](https://github
 - Added an optional **Three-Line Lyrics View** that keeps the previous, current, and next lyric lines visible together.
 - Added smooth animated line transitions for a more polished Spotify-style lyric display.
 - Added karaoke highlighting for the active line using the synchronized lyric timing data.
-- Improved single-line fitting so long lyrics remain on one line and automatically scale to the available width.
-- Simplified the Three-Line Lyrics controls by removing redundant progress, hold, force-single-line, and smoothing parameters.
-- Moved **Always Cook Outputs** into a dedicated section at the bottom of the Output Control page.
-- Reorganized the internal Three-Line Lyrics network for easier maintenance.
 - Fixed Spotify OAuth refresh caching so authentication data remains inside the TouchDesigner VFS instead of creating a .cache file beside the project.
 
 ## Authentication Cache
