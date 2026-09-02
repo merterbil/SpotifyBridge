@@ -32,16 +32,6 @@ After successful authorization, SpotifyBridge stores its Spotify authentication 
 
 Press **Disconnect / Clear Cache** on the **Spotify Setup** page whenever you want to disconnect and delete that stored VFS cache. Use this before sharing or exporting a project that has been authenticated.
 
-## GitHub-Based Updates
-
-SpotifyBridge checks its official GitHub manifest once when the component is loaded. You can disable **Auto Check on Load** or run **Check for Updates** manually from the **Updates** parameter page.
-
-When an update is available, press **Download Update** to download the current release. The updater does not silently replace components or modify user projects.
-
-The main idea behind this release is reusable: other TouchDesigner developers can adapt the same GitHub manifest and version-check pattern for their own .tox tools. Each developer can publish a manifest and versioned .tox files in their own GitHub repository, then point their component's checker to that repository. This gives independently distributed tools a simple update channel without requiring a separate manager component.
-
-The manifest can describe the tool ID, latest version, public download URL, release page, publisher, and TouchDesigner compatibility. SpotifyBridge's [public manifest](https://github.com/merterbil/SpotifyBridge/blob/main/manifest.json) is available as a working reference.
-
 ## Compatibility
 
 The current release was built and tested with TouchDesigner 2025.33070 on macOS.
